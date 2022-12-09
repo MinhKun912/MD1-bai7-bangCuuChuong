@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let bangIn;
+    bangIn ="<table border='1' width='300' cellspacing='0' cellpadding='3'>"
+    let a,b;
+    for (b=1;b<10;b++){
+        bangIn=bangIn + '<tr>';
+
+        for (a=2;a<10;a++){
+            bangIn=bangIn + '<td>'+ a +'x'+ b + '=' + (a * b) +'</td>';
+
+        }
+
+    }bangIn=bangIn+'</table>';
+    document.write(bangIn);
+
+</script>
+</body>
+</html>
